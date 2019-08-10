@@ -1607,7 +1607,7 @@ ok  	github.com/gypsydave5/learn-go-with-tests/math/v9/clockface	0.007s
 There... now it's just the hour hand to do!
 
 <!--
-v9 ends here
+defer ends here
 -->
 
 ### Write the test first
@@ -1896,7 +1896,7 @@ If we're going to use `roughlyEqualFloat64` in _one_ of our radians tests, we
 should probably use it for _all_ of them. That's a nice and simple refactor.
 
 <!--
-end of v10
+end of pointer
 -->
 
 ## Hour Hand Point
@@ -1975,7 +1975,7 @@ PASS
 ok  	github.com/gypsydave5/learn-go-with-tests/math/v11/clockface	0.009s
 ```
 <!--
-Here endeth v11
+Here endeth structs
 -->
 
 ## Draw the hour hand

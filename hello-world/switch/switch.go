@@ -18,7 +18,7 @@ func Hello(name string, language string) string {
 
 	prefix := englishHelloPrefix
 
-	switch language {  // switch 后可以接变量
+	switch language { // switch 后可以接变量
 	case french: // 只运行选定的case，而非case后所有的case
 		prefix = frenchHelloPrefix
 	case spanish:
@@ -61,10 +61,7 @@ func switch_with_no_conditions() { // 没有条件的switch语句相当于switch
 		fmt.Println("2")
 	}
 
-
 }
-
-
 
 func main() {
 	fmt.Println(Hello("world", "Spanish"))
