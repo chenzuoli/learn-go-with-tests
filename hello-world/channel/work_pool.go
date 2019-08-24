@@ -78,7 +78,7 @@ func main() {
 	go result(done)
 	noOfWorkers := 10
 	createWorkPool(noOfWorkers)
-	<-done
+	<-done // 保证主协程未完成，等待所有Job完成
 	endtime := time.Now()
 	diff := endtime.Sub(startime)
 	fmt.Println("total time taken ", diff, " seconds.")
