@@ -8,7 +8,7 @@ type employee struct {
 	Salary float64
 }
 
-func New(name string, gender bool, salary float64) employee { // 避免了创建无name或者gender或者salary的employee
+func New(name string, gender bool, salary float64) employee { // 避免了创建无用户名、性别、薪水的employee
 	employee := employee{Name: name, Gender: gender, Salary: salary}
 	return employee
 }
