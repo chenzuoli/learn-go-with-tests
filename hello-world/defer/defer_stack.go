@@ -4,6 +4,7 @@ import "fmt"
 
 type person string
 
+// defer stack feature: Last in First out(LIFO)
 func (a person) printName() {
 	for _, letter := range []rune(a) {
 		defer fmt.Print("%c", letter)
