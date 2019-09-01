@@ -6,16 +6,16 @@
      viewBox="0 0 300 300"
      version="2.0">
 
-  <!-- bezel -->
-  <circle cx="150" cy="150" r="100" style="fill:#fff;stroke:#000;stroke-width:5px;"/>
+    <!-- bezel -->
+    <circle cx="150" cy="150" r="100" style="fill:#fff;stroke:#000;stroke-width:5px;"/>
 
-  <!-- hour hand -->
-  <line x1="150" y1="150" x2="{{.Hour.x}}" y2="{{.Hour.y}}"
-        style="fill:none;stroke:#000;stroke-width:7px;"/>
-  <!-- minute hand -->
-  <line x1="150" y1="150" x2="{{.Minute.x}}" y2="{{.Minute.y}}"
-        style="fill:none;stroke:#000;stroke-width:7px;"/>
-  <!-- second hand -->
-  <line x1="150" y1="150" x2="{{.Second.x}}" y2="{{.Second.y}}"
-        style="fill:none;stroke:#f00;stroke-width:3px;"/>
+    <!-- hour hand -->
+    <line x1="150" y1="150" x2="{{.Hour.x}}" y2="{{.Hour.y}}"
+          style="fill:none;stroke:#000;stroke-width:7px;"/>
+    <!-- minute hand -->
+    <line x1="150" y1="150" x2="{{.Minute.x}}" y2="{{.Minute.y}}"
+          style="fill:none;stroke:#000;stroke-width:7px;"/>
+    <!-- second hand -->
+    <line x1="150" y1="150" x2="{{.Second.x}}" y2="{{.Second.y}}"
+          style="fill:none;stroke:#f00;stroke-width:3px;"/>
 </svg>

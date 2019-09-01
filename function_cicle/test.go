@@ -28,12 +28,12 @@ import (
 )
 
 func Sqrt(x, z float64, count int) float64 {
-	if math.Abs(math.Sqrt(x) - z) <= 0.000001 {
+	if math.Abs(math.Sqrt(x)-z) <= 0.000001 {
 		fmt.Println("z's value is " + strconv.FormatFloat(z, 'E', -1, 64))
 		return z
 	}
-	z -= (z*z - x) / (2*z)
-	count = count+1
+	z -= (z*z - x) / (2 * z)
+	count = count + 1
 	fmt.Println(count)
 	return Sqrt(x, z, count)
 }

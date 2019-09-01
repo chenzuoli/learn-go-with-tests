@@ -33,9 +33,9 @@ func main() {
 
 	// 切片文法类似于没有长度的数组文法，它会在底层构建一个相同的数组文法，然后构建一个引用它的切片
 	fmt.Println("--------")
-	x := []int{1,2,3,4,5}
+	x := []int{1, 2, 3, 4, 5}
 	y := []bool{true, false, true, false}
-	z := []struct{
+	z := []struct {
 		i int
 		j bool
 	}{

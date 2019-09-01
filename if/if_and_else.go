@@ -18,6 +18,6 @@ func pow(x, n, lim float64) float64 {
 }
 
 func main() {
-	fmt.Println(pow(3, 2, 10),pow(3, 3, 20))  // go中会从内到外执行，执行完pow(3, 2, 10)后，再执行pow(3, 3, 20)，然后再执行fmt.Println(9, 20)
+	fmt.Println(pow(3, 2, 10), pow(3, 3, 20)) // go中会从内到外执行，执行完pow(3, 2, 10)后，再执行pow(3, 3, 20)，然后再执行fmt.Println(9, 20)
 	fmt.Println(9, 20)
 }

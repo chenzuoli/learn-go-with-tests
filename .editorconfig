@@ -16,7 +16,7 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 # For YAML
-[*.{yml,yaml}]
+[*.{yml, yaml}]
 indent_size = 2
 
 # For Go files
